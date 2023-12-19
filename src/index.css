@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.thin-scrollbar::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+.thin-scrollbar::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  border: 0px solid #ffffff;
+}
+
+.focused-option {
+  background-color: #cce4ff;
+  border: 1px solid #4a90e2; 
+}
